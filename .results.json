@@ -5,42 +5,48 @@
     "passes": 0,
     "pending": 0,
     "failures": 13,
-    "start": "2022-03-27T02:23:30.049Z",
-    "end": "2022-03-27T02:23:30.803Z",
-    "duration": 754
+    "start": "2022-03-27T19:40:57.754Z",
+    "end": "2022-03-27T19:40:58.619Z",
+    "duration": 865
   },
   "tests": [
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "expected NaN to equal 1",
+        "showDiff": true,
+        "actual": "NaN",
+        "expected": "1",
+        "stack": "AssertionError: expected NaN to equal 1\n    at Context.<anonymous> (test/indexTest.js:4:45)\n    at processImmediate (node:internal/timers:466:21)"
+      }
     },
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "expected NaN to equal 8",
+        "showDiff": true,
+        "actual": "NaN",
+        "expected": "8",
+        "stack": "AssertionError: expected NaN to equal 8\n    at Context.<anonymous> (test/indexTest.js:8:45)\n    at processImmediate (node:internal/timers:466:21)"
+      }
     },
     {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "returns a distance in feet",
-      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 2,
-      "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 264",
+        "message": "expected NaN to equal 8",
         "showDiff": true,
-        "expected": 264,
-        "stack": "AssertionError: expected undefined to equal 264\n    at Context.<anonymous> (test/indexTest.js:18:43)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "NaN",
+        "expected": "8",
+        "stack": "AssertionError: expected NaN to equal 8\n    at Context.<anonymous> (test/indexTest.js:12:45)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
@@ -49,46 +55,63 @@
       "duration": 1,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 2112",
+        "message": "expected 11352 to equal 264",
         "showDiff": true,
-        "expected": 2112,
-        "stack": "AssertionError: expected undefined to equal 2112\n    at Context.<anonymous> (test/indexTest.js:22:43)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "11352",
+        "expected": "264",
+        "stack": "AssertionError: expected 11352 to equal 264\n    at Context.<anonymous> (test/indexTest.js:18:43)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 13200 to equal 2112",
+        "showDiff": true,
+        "actual": "13200",
+        "expected": "2112",
+        "stack": "AssertionError: expected 13200 to equal 2112\n    at Context.<anonymous> (test/indexTest.js:22:43)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 2112",
+        "message": "expected 8976 to equal 2112",
         "showDiff": true,
-        "expected": 2112,
-        "stack": "AssertionError: expected undefined to equal 2112\n    at Context.<anonymous> (test/indexTest.js:26:43)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "8976",
+        "expected": "2112",
+        "stack": "AssertionError: expected 8976 to equal 2112\n    at Context.<anonymous> (test/indexTest.js:26:43)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
       "title": "returns the distance travelled in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 1320",
+        "message": "expected 11352 to equal 1320",
         "showDiff": true,
-        "expected": 1320,
-        "stack": "AssertionError: expected undefined to equal 1320\n    at Context.<anonymous> (test/indexTest.js:32:50)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "11352",
+        "expected": "1320",
+        "stack": "AssertionError: expected 11352 to equal 1320\n    at Context.<anonymous> (test/indexTest.js:32:50)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 2640",
+        "message": "expected 13200 to equal 2640",
         "showDiff": true,
-        "expected": 2640,
-        "stack": "AssertionError: expected undefined to equal 2640\n    at Context.<anonymous> (test/indexTest.js:36:50)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "13200",
+        "expected": "2640",
+        "stack": "AssertionError: expected 13200 to equal 2640\n    at Context.<anonymous> (test/indexTest.js:36:50)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
@@ -97,16 +120,17 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 1584",
+        "message": "expected 8976 to equal 1584",
         "showDiff": true,
-        "expected": 1584,
-        "stack": "AssertionError: expected undefined to equal 1584\n    at Context.<anonymous> (test/indexTest.js:40:50)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "8976",
+        "expected": "1584",
+        "stack": "AssertionError: expected 8976 to equal 1584\n    at Context.<anonymous> (test/indexTest.js:40:50)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
       "title": "gives customers a free sample",
       "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 0",
@@ -118,7 +142,7 @@
     {
       "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 2.56",
@@ -130,7 +154,7 @@
     {
       "title": "charges 25 dollars for a distance over 2000 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 25",
@@ -157,34 +181,40 @@
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "expected NaN to equal 1",
+        "showDiff": true,
+        "actual": "NaN",
+        "expected": "1",
+        "stack": "AssertionError: expected NaN to equal 1\n    at Context.<anonymous> (test/indexTest.js:4:45)\n    at processImmediate (node:internal/timers:466:21)"
+      }
     },
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "expected NaN to equal 8",
+        "showDiff": true,
+        "actual": "NaN",
+        "expected": "8",
+        "stack": "AssertionError: expected NaN to equal 8\n    at Context.<anonymous> (test/indexTest.js:8:45)\n    at processImmediate (node:internal/timers:466:21)"
+      }
     },
     {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "returns a distance in feet",
-      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 2,
-      "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 264",
+        "message": "expected NaN to equal 8",
         "showDiff": true,
-        "expected": 264,
-        "stack": "AssertionError: expected undefined to equal 264\n    at Context.<anonymous> (test/indexTest.js:18:43)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "NaN",
+        "expected": "8",
+        "stack": "AssertionError: expected NaN to equal 8\n    at Context.<anonymous> (test/indexTest.js:12:45)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
@@ -193,46 +223,63 @@
       "duration": 1,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 2112",
+        "message": "expected 11352 to equal 264",
         "showDiff": true,
-        "expected": 2112,
-        "stack": "AssertionError: expected undefined to equal 2112\n    at Context.<anonymous> (test/indexTest.js:22:43)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "11352",
+        "expected": "264",
+        "stack": "AssertionError: expected 11352 to equal 264\n    at Context.<anonymous> (test/indexTest.js:18:43)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 13200 to equal 2112",
+        "showDiff": true,
+        "actual": "13200",
+        "expected": "2112",
+        "stack": "AssertionError: expected 13200 to equal 2112\n    at Context.<anonymous> (test/indexTest.js:22:43)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 2112",
+        "message": "expected 8976 to equal 2112",
         "showDiff": true,
-        "expected": 2112,
-        "stack": "AssertionError: expected undefined to equal 2112\n    at Context.<anonymous> (test/indexTest.js:26:43)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "8976",
+        "expected": "2112",
+        "stack": "AssertionError: expected 8976 to equal 2112\n    at Context.<anonymous> (test/indexTest.js:26:43)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
       "title": "returns the distance travelled in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 1320",
+        "message": "expected 11352 to equal 1320",
         "showDiff": true,
-        "expected": 1320,
-        "stack": "AssertionError: expected undefined to equal 1320\n    at Context.<anonymous> (test/indexTest.js:32:50)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "11352",
+        "expected": "1320",
+        "stack": "AssertionError: expected 11352 to equal 1320\n    at Context.<anonymous> (test/indexTest.js:32:50)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 2640",
+        "message": "expected 13200 to equal 2640",
         "showDiff": true,
-        "expected": 2640,
-        "stack": "AssertionError: expected undefined to equal 2640\n    at Context.<anonymous> (test/indexTest.js:36:50)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "13200",
+        "expected": "2640",
+        "stack": "AssertionError: expected 13200 to equal 2640\n    at Context.<anonymous> (test/indexTest.js:36:50)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
@@ -241,16 +288,17 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 1584",
+        "message": "expected 8976 to equal 1584",
         "showDiff": true,
-        "expected": 1584,
-        "stack": "AssertionError: expected undefined to equal 1584\n    at Context.<anonymous> (test/indexTest.js:40:50)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "8976",
+        "expected": "1584",
+        "stack": "AssertionError: expected 8976 to equal 1584\n    at Context.<anonymous> (test/indexTest.js:40:50)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
       "title": "gives customers a free sample",
       "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 0",
@@ -262,7 +310,7 @@
     {
       "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 2.56",
@@ -274,7 +322,7 @@
     {
       "title": "charges 25 dollars for a distance over 2000 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 25",
