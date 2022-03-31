@@ -2,38 +2,38 @@
   "stats": {
     "suites": 5,
     "tests": 13,
-    "passes": 0,
+    "passes": 1,
     "pending": 0,
-    "failures": 13,
-    "start": "2022-03-27T19:40:57.754Z",
-    "end": "2022-03-27T19:40:58.619Z",
-    "duration": 865
+    "failures": 12,
+    "start": "2022-03-31T15:55:57.160Z",
+    "end": "2022-03-31T15:55:58.214Z",
+    "duration": 1054
   },
   "tests": [
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
-        "message": "expected NaN to equal 1",
+        "message": "expected -1 to equal 1",
         "showDiff": true,
-        "actual": "NaN",
+        "actual": "-1",
         "expected": "1",
-        "stack": "AssertionError: expected NaN to equal 1\n    at Context.<anonymous> (test/indexTest.js:4:45)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "AssertionError: expected -1 to equal 1\n    at Context.<anonymous> (test/indexTest.js:4:45)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected NaN to equal 8",
+        "message": "expected -8 to equal 8",
         "showDiff": true,
-        "actual": "NaN",
+        "actual": "-8",
         "expected": "8",
-        "stack": "AssertionError: expected NaN to equal 8\n    at Context.<anonymous> (test/indexTest.js:8:45)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "AssertionError: expected -8 to equal 8\n    at Context.<anonymous> (test/indexTest.js:8:45)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
@@ -41,38 +41,26 @@
       "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
       "duration": 0,
       "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
+      "duration": 0,
+      "currentRetry": 0,
       "err": {
-        "message": "expected NaN to equal 8",
-        "showDiff": true,
-        "actual": "NaN",
-        "expected": "8",
-        "stack": "AssertionError: expected NaN to equal 8\n    at Context.<anonymous> (test/indexTest.js:12:45)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:18:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "distanceFromHqInFeet is not defined"
       }
     },
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected 11352 to equal 264",
-        "showDiff": true,
-        "actual": "11352",
-        "expected": "264",
-        "stack": "AssertionError: expected 11352 to equal 264\n    at Context.<anonymous> (test/indexTest.js:18:43)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
-      "title": "returns a distance in feet",
-      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 13200 to equal 2112",
-        "showDiff": true,
-        "actual": "13200",
-        "expected": "2112",
-        "stack": "AssertionError: expected 13200 to equal 2112\n    at Context.<anonymous> (test/indexTest.js:22:43)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:22:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "distanceFromHqInFeet is not defined"
       }
     },
     {
@@ -81,24 +69,18 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected 8976 to equal 2112",
-        "showDiff": true,
-        "actual": "8976",
-        "expected": "2112",
-        "stack": "AssertionError: expected 8976 to equal 2112\n    at Context.<anonymous> (test/indexTest.js:26:43)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:26:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "distanceFromHqInFeet is not defined"
       }
     },
     {
       "title": "returns the distance travelled in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected 11352 to equal 1320",
-        "showDiff": true,
-        "actual": "11352",
-        "expected": "1320",
-        "stack": "AssertionError: expected 11352 to equal 1320\n    at Context.<anonymous> (test/indexTest.js:32:50)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:32:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "distanceTravelledInFeet is not defined"
       }
     },
     {
@@ -107,11 +89,8 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected 13200 to equal 2640",
-        "showDiff": true,
-        "actual": "13200",
-        "expected": "2640",
-        "stack": "AssertionError: expected 13200 to equal 2640\n    at Context.<anonymous> (test/indexTest.js:36:50)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:36:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "distanceTravelledInFeet is not defined"
       }
     },
     {
@@ -120,11 +99,8 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected 8976 to equal 1584",
-        "showDiff": true,
-        "actual": "8976",
-        "expected": "1584",
-        "stack": "AssertionError: expected 8976 to equal 1584\n    at Context.<anonymous> (test/indexTest.js:40:50)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:40:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "distanceTravelledInFeet is not defined"
       }
     },
     {
@@ -133,10 +109,8 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 0",
-        "showDiff": true,
-        "expected": 0,
-        "stack": "AssertionError: expected undefined to equal 0\n    at Context.<anonymous> (test/indexTest.js:46:46)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:46:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "calculatesFarePrice is not defined"
       }
     },
     {
@@ -145,10 +119,8 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 2.56",
-        "showDiff": true,
-        "expected": 2.56,
-        "stack": "AssertionError: expected undefined to equal 2.56\n    at Context.<anonymous> (test/indexTest.js:51:46)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:51:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "calculatesFarePrice is not defined"
       }
     },
     {
@@ -157,10 +129,8 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 25",
-        "showDiff": true,
-        "expected": 25,
-        "stack": "AssertionError: expected undefined to equal 25\n    at Context.<anonymous> (test/indexTest.js:55:46)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:55:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "calculatesFarePrice is not defined"
       }
     },
     {
@@ -169,10 +139,8 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 'cannot travel that far'",
-        "showDiff": true,
-        "expected": "cannot travel that far",
-        "stack": "AssertionError: expected undefined to equal 'cannot travel that far'\n    at Context.<anonymous> (test/indexTest.js:59:46)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:59:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "calculatesFarePrice is not defined"
       }
     }
   ],
@@ -181,66 +149,47 @@
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
-        "message": "expected NaN to equal 1",
+        "message": "expected -1 to equal 1",
         "showDiff": true,
-        "actual": "NaN",
+        "actual": "-1",
         "expected": "1",
-        "stack": "AssertionError: expected NaN to equal 1\n    at Context.<anonymous> (test/indexTest.js:4:45)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "AssertionError: expected -1 to equal 1\n    at Context.<anonymous> (test/indexTest.js:4:45)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected NaN to equal 8",
-        "showDiff": true,
-        "actual": "NaN",
-        "expected": "8",
-        "stack": "AssertionError: expected NaN to equal 8\n    at Context.<anonymous> (test/indexTest.js:8:45)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
-      "title": "calculates distances below 42nd street",
-      "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected NaN to equal 8",
+        "message": "expected -8 to equal 8",
         "showDiff": true,
-        "actual": "NaN",
+        "actual": "-8",
         "expected": "8",
-        "stack": "AssertionError: expected NaN to equal 8\n    at Context.<anonymous> (test/indexTest.js:12:45)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "AssertionError: expected -8 to equal 8\n    at Context.<anonymous> (test/indexTest.js:8:45)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected 11352 to equal 264",
-        "showDiff": true,
-        "actual": "11352",
-        "expected": "264",
-        "stack": "AssertionError: expected 11352 to equal 264\n    at Context.<anonymous> (test/indexTest.js:18:43)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:18:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "distanceFromHqInFeet is not defined"
       }
     },
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected 13200 to equal 2112",
-        "showDiff": true,
-        "actual": "13200",
-        "expected": "2112",
-        "stack": "AssertionError: expected 13200 to equal 2112\n    at Context.<anonymous> (test/indexTest.js:22:43)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:22:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "distanceFromHqInFeet is not defined"
       }
     },
     {
@@ -249,24 +198,18 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected 8976 to equal 2112",
-        "showDiff": true,
-        "actual": "8976",
-        "expected": "2112",
-        "stack": "AssertionError: expected 8976 to equal 2112\n    at Context.<anonymous> (test/indexTest.js:26:43)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:26:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "distanceFromHqInFeet is not defined"
       }
     },
     {
       "title": "returns the distance travelled in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected 11352 to equal 1320",
-        "showDiff": true,
-        "actual": "11352",
-        "expected": "1320",
-        "stack": "AssertionError: expected 11352 to equal 1320\n    at Context.<anonymous> (test/indexTest.js:32:50)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:32:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "distanceTravelledInFeet is not defined"
       }
     },
     {
@@ -275,11 +218,8 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected 13200 to equal 2640",
-        "showDiff": true,
-        "actual": "13200",
-        "expected": "2640",
-        "stack": "AssertionError: expected 13200 to equal 2640\n    at Context.<anonymous> (test/indexTest.js:36:50)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:36:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "distanceTravelledInFeet is not defined"
       }
     },
     {
@@ -288,11 +228,8 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected 8976 to equal 1584",
-        "showDiff": true,
-        "actual": "8976",
-        "expected": "1584",
-        "stack": "AssertionError: expected 8976 to equal 1584\n    at Context.<anonymous> (test/indexTest.js:40:50)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:40:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "distanceTravelledInFeet is not defined"
       }
     },
     {
@@ -301,10 +238,8 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 0",
-        "showDiff": true,
-        "expected": 0,
-        "stack": "AssertionError: expected undefined to equal 0\n    at Context.<anonymous> (test/indexTest.js:46:46)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:46:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "calculatesFarePrice is not defined"
       }
     },
     {
@@ -313,10 +248,8 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 2.56",
-        "showDiff": true,
-        "expected": 2.56,
-        "stack": "AssertionError: expected undefined to equal 2.56\n    at Context.<anonymous> (test/indexTest.js:51:46)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:51:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "calculatesFarePrice is not defined"
       }
     },
     {
@@ -325,10 +258,8 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 25",
-        "showDiff": true,
-        "expected": 25,
-        "stack": "AssertionError: expected undefined to equal 25\n    at Context.<anonymous> (test/indexTest.js:55:46)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:55:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "calculatesFarePrice is not defined"
       }
     },
     {
@@ -337,12 +268,18 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 'cannot travel that far'",
-        "showDiff": true,
-        "expected": "cannot travel that far",
-        "stack": "AssertionError: expected undefined to equal 'cannot travel that far'\n    at Context.<anonymous> (test/indexTest.js:59:46)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:59:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "calculatesFarePrice is not defined"
       }
     }
   ],
-  "passes": []
+  "passes": [
+    {
+      "title": "calculates distances below 42nd street",
+      "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
 }
